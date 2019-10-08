@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
+}
+
+.submit-btn {
+    background-color: #F2AF29;
+}
+
+.appTitle {
+    background-color: #F2AF29;
+    padding: 2rem;
+    font-weight: bold;
+    color: #fff;
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #474747;
+    font-family: 'Playfair Display', serif;
+}
+
+p,
+label,
+ ::placeholder,
+button,
+select {
+    font-family: 'Quicksand', sans-serif;
+    color: #474747;
+}
+
+label {
+    font-weight: bold;
+}
+
+.result {
+    background-color: #E0E0CE;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.result h1 {
+    color: #AD343E;
+}
+
+.error p {
+    color: red;
+}
