@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "801ad3aa55adfe5d1c06fd22a697e5d1",
+    "revision": "58d31438372102a47019475b0f968183",
     "url": "/TipCalculator/index.html"
   },
   {
-    "revision": "53b570ab7795fe403b9c",
+    "revision": "53fdd4de1ae865c777d1",
     "url": "/TipCalculator/static/css/main.54e8f20e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TipCalculator/static/js/2.e48fe639.chunk.js"
   },
   {
-    "revision": "53b570ab7795fe403b9c",
-    "url": "/TipCalculator/static/js/main.ff53d085.chunk.js"
+    "revision": "53fdd4de1ae865c777d1",
+    "url": "/TipCalculator/static/js/main.7c676ad3.chunk.js"
   },
   {
     "revision": "57460b4fbe24bce42928",
