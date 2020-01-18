@@ -54,7 +54,7 @@ class TipForm extends Component{
     
     handleSubmit(event) {
         event.preventDefault(); 
-        this.validateBil();
+        this.validateBill();
         this.validatePeople();
         this.setState({showResults:true});
         console.log("Submitted");
