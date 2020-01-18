@@ -54,7 +54,7 @@ class TipForm extends Component{
     
     handleSubmit(event) {
         event.preventDefault(); 
-        this.validateBill();
+        this.validateBil();
         this.validatePeople();
         this.setState({showResults:true});
         console.log("Submitted");
@@ -81,7 +81,7 @@ class TipForm extends Component{
                 <div className="form pt-3 pb-5">
                     <div className="pb-3 form-group">
                         <label>How much is your bill ?</label>
-                        <input className ="form-control" type="number" id="bill-amt" placeholder="example: $200" onChange={this.handleBillChange}/>
+                        <input className ="form-control" type="number" id="bill-amt" placeholder="example: 240" onChange={this.handleBillChange}/>
                         <div>
                             {this.state.billValid ?
                             null: <InputError /> 
